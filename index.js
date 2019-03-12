@@ -3,12 +3,14 @@
  function distanceFromHqInBlocks(block){
    return Math.abs(block - headquartersBlocks);
  }
- function distanceFromHqInFeet(feet){
+ function distanceFromHqInFeet(block){
    return (distanceFromHqInBlocks(block) * feetPerBlock);
  }
  function distanceTravelledInFeet(block1, block2){
    return (Math.abs(block2 - block1) * feetPerBlock);
  }
  function calculatesFarePrice(start, destination){
-   if ()
+   if (distanceTravelledInFeet(start, destination) < 400){
+     return 0;
+   }
  }
