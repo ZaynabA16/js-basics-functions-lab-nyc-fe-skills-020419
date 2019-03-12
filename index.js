@@ -16,7 +16,7 @@
      return 0; 
    }
    else if(feetTravelled >= 400 && feetTravelled > 2000){
-     return ((feetTravelled - 400)* 0.02);
+     return (feetTravelled - 400)* 0.02;
    }
    
    else if (feetTravelled > 2000 && feetTravelled <= 2500){
