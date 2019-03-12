@@ -9,3 +9,6 @@
  function distanceTravelledInFeet(block1, block2){
    return (Math.abs(block2 - block1) * feetPerBlock);
  }
+ function calculatesFarePrice(start, destination){
+   if ()
+ }
