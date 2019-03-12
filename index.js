@@ -15,7 +15,7 @@
    if (distanceTravelledInFeet(start, destination) < 400){
      return 0; 
    }
-   else if(feetTravelled >= 400 && feetTravelled > 2000){
+   else if(feetTravelled > 400 && feetTravelled > 2000){
      return (feetTravelled - 400)* 0.02;
    }
    
